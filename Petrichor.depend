@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1305912307 source:c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\main.cpp
+	<stdlib.h>
+	<GL/glfw.h>
+	"Screen.h"
+
+1281314224 c:\glfw\include\gl\glfw.h
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1305912014 c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\screen.h
+	<GL/glfw.h>
+	<stdlib.h>
+
+1305912031 source:c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\screen.cpp
+	"Screen.h"
+

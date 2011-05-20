@@ -31,6 +31,8 @@
 			<Add library="gdi32" />
 			<Add directory="C:\glfw\lib" />
 		</Linker>
+		<Unit filename="Screen.cpp" />
+		<Unit filename="Screen.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
