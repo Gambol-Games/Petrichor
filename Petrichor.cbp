@@ -31,8 +31,14 @@
 			<Add library="gdi32" />
 			<Add directory="C:\glfw\lib" />
 		</Linker>
+		<Unit filename="Entity.cpp" />
+		<Unit filename="Entity.h" />
+		<Unit filename="Model.cpp" />
+		<Unit filename="Model.h" />
 		<Unit filename="Screen.cpp" />
 		<Unit filename="Screen.h" />
+		<Unit filename="Texture.cpp" />
+		<Unit filename="Texture.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <GL/glfw.h>
 #include "Screen.h"
+#include "Entity.h"
 
 
 void Init();
@@ -26,6 +27,8 @@ double old_time = glfwGetTime();
 Screen screen= Screen(window_width,window_height);;
 
 
+
+Entity entity=Entity();
 
 int main()
 {

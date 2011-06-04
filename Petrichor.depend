@@ -10,10 +10,20 @@
 	<GL/gl.h>
 	<GL/glu.h>
 
-1305912014 c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\screen.h
+1307152813 c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\screen.h
 	<GL/glfw.h>
 	<stdlib.h>
 
-1305912031 source:c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\screen.cpp
+1307152813 source:c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\screen.cpp
 	"Screen.h"
+
+1307152864 source:c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\model.cpp
+	"Model.h"
+
+1307152864 c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\model.h
+
+1307152857 source:c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\texture.cpp
+	"Texture.h"
+
+1307152857 c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\texture.h
 
