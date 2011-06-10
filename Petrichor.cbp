@@ -40,6 +40,8 @@
 		<Unit filename="Texture.cpp" />
 		<Unit filename="Texture.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="tPlate.cpp" />
+		<Unit filename="tPlate.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />

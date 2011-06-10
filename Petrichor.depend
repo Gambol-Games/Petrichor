@@ -1,8 +1,10 @@
 # depslib dependency file v1.0
-1305912307 source:c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\main.cpp
+1307667292 source:c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\main.cpp
 	<stdlib.h>
 	<GL/glfw.h>
 	"Screen.h"
+	"Entity.h"
+	"tPlate.h"
 
 1281314224 c:\glfw\include\gl\glfw.h
 	<OpenGL/gl.h>
@@ -26,4 +28,17 @@
 	"Texture.h"
 
 1307152857 c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\texture.h
+
+1307152931 source:c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\entity.cpp
+	"Entity.h"
+
+1307152899 c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\entity.h
+	"Model.h"
+	"Texture.h"
+
+1307667213 c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\tplate.h
+	<GL/glfw.h>
+
+1307667338 source:c:\documents and settings\aninon.magicbox\desktop\syntax\petrichor\tplate.cpp
+	"tPlate.h"
 

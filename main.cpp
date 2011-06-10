@@ -2,6 +2,7 @@
 #include <GL/glfw.h>
 #include "Screen.h"
 #include "Entity.h"
+#include "tPlate.h"
 
 
 void Init();
@@ -26,6 +27,9 @@ double old_time = glfwGetTime();
 
 Screen screen= Screen(window_width,window_height);;
 
+tPlate plate = tPlate(.5,.2);
+
+tPlate square = tPlate(.2,.2);
 
 
 Entity entity=Entity();
@@ -39,7 +43,9 @@ int main()
 
 void Init()
 {
-
+    plate.Orient(1,0);
+    plate.Pos(.8,0);
+    square.Orient(1,1);
 }
 
 void Shut_Down(int return_code)
@@ -72,6 +78,7 @@ void Logic(){
         rotate_z += delta_rotate;
 
         running = !glfwGetKey(GLFW_KEY_ESC) && glfwGetWindowParam( GLFW_OPENED);
+        plate.r++;
 }
 
 void Draw()
@@ -110,6 +117,9 @@ void D2()
     float x=(2.0f*X/window_width)-1;
     float y=(-2.0f*Y/window_height)+1;
 
+    square.x+=((-square.x +x)/600);
+    square.y+=((-square.y +y)/600);
+
     glBegin(GL_QUADS);
     {
         glColor4f(1,0,0,0.1);
@@ -121,6 +131,10 @@ void D2()
         glVertex2f(x, y+f);
     }
     glEnd();
+
+    plate.Render();
+    square.Render();
+
 }
 
 void Draw_Square(float red, float green, float blue)
